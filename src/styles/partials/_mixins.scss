@@ -1,0 +1,7 @@
+
+@mixin flexContainer($horizantal, $vertical, $direction) {
+    display: flex;
+    justify-content: $horizantal;
+    align-items: $vertical;
+    flex-direction: $direction;
+}

@@ -1,5 +1,4 @@
 import "../styles/main.css";
-import { CgWebsite } from "react-icons/cg";
 import { BsToggles } from "react-icons/bs";
 import React from "react";
 
@@ -12,30 +11,24 @@ function Navbar() {
   return (
     <header className="navbar-container">
       <div className="navbar-logo">
-        <CgWebsite className="navbar-icon" />
-        website
+        <span>fahri</span>
+        akbaba
       </div>
       <div className="toggle-icon">
         <BsToggles onClick={toggleIcon} />
       </div>
       <ul className={`${isShown ? "show" : "hidden"}`}>
         <li>
-          <a href="/#">home</a>
+          <a href="#home">home</a>
         </li>
         <li>
-          <a href="/#">about</a>
+          <a href="#service">service</a>
         </li>
         <li>
-          <a href="/#">service</a>
+          <a href="#about">about</a>
         </li>
         <li>
-          <a href="/#">portfolio</a>
-        </li>
-        <li>
-          <a href="/#">blog</a>
-        </li>
-        <li>
-          <a href="/#">contact</a>
+          <a href="#contact">contact</a>
         </li>
       </ul>
     </header>

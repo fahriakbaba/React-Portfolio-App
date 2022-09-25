@@ -3,97 +3,170 @@
   margin: 0;
   list-style-type: none;
   box-sizing: border-box;
+  font-family: Verdana;
 }
 
-.App .navbar-container {
-  padding: 2% 13%;
-  background: #1F2235;
-  color: white;
+.App {
+  background-color: #1F2235;
+}
+
+/* Navbar component -start */
+.navbar-container {
+  margin: 0 auto 1rem auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
+  padding: 1.5% 13%;
+  background: #1F2235;
+  color: white;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
-.App .navbar-container .navbar-logo {
-  font-size: 2.5rem;
-  color: red;
+.navbar-container .navbar-logo {
+  font-size: 2rem;
+  color: green;
+  font-style: italic;
+  font-weight: 100;
   letter-spacing: 5px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
 }
-.App .navbar-container .navbar-logo .navbar-icon {
-  margin-right: 16px;
-  font-size: 1.9rem;
+.navbar-container .navbar-logo span {
+  font-weight: bold;
+  color: red;
 }
-.App .navbar-container .toggle-icon {
+.navbar-container .toggle-icon {
   margin-left: auto;
   display: none;
   cursor: pointer;
+  padding: 1%;
 }
-.App .navbar-container ul {
+.navbar-container ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
 }
-.App .navbar-container ul li {
+.navbar-container ul li {
   padding: 6px 1.2rem;
   cursor: pointer;
   transition: all 0.7s;
 }
-.App .navbar-container ul li:hover {
+.navbar-container ul li:hover {
   transform: scale(1.2);
 }
-.App .navbar-container ul li:hover a {
+.navbar-container ul li:hover a {
   color: red;
 }
-.App .navbar-container ul li a {
+.navbar-container ul li a {
   color: white;
   text-decoration: none;
   text-transform: capitalize;
   letter-spacing: 1.6px;
-  text-transform: uppercase;
+  font-style: italic;
   transition: all 0.7s;
 }
+
 @media (min-width: 600px) and (max-width: 960px) {
-  .App .navbar-container {
+  .navbar-container {
     display: block;
   }
-  .App .navbar-container .show {
+  .navbar-container .show {
     opacity: 1;
     visibility: visible;
     height: auto;
   }
-  .App .navbar-container .hidden {
+  .navbar-container .hidden {
     opacity: 0;
     height: 0;
   }
-  .App .navbar-container .navbar-logo {
+  .navbar-container .navbar-logo {
     display: inline-block;
   }
-  .App .navbar-container .toggle-icon {
+  .navbar-container .toggle-icon {
     display: inline-block;
     margin-left: auto;
     position: absolute;
     right: 3%;
-    top: 4%;
   }
-  .App .navbar-container ul {
+  .navbar-container ul {
     visibility: hidden;
     opacity: 0;
     display: block;
     width: 100%;
     text-align: left;
   }
-  .App .navbar-container ul li {
+  .navbar-container ul li {
     padding: 3% 0%;
     transition: all 0.7s;
   }
-  .App .navbar-container ul li:hover {
+  .navbar-container ul li:hover {
     transform: translateX(2rem);
   }
+}
+/* Navbar component -end */
+/* Home component -start */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 0 13%;
+  background: white;
+  color: white;
+  margin-top: -5%;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  font-style: italic;
+}
+.home-container .home-main {
+  text-align: left;
+}
+.home-container .home-main h1 {
+  font-size: 2rem;
+  margin: 12px auto;
+  line-height: 5rem;
+  color: black;
+}
+.home-container .home-main p {
+  line-height: 2rem;
+  color: gray;
+  font-size: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.home-container .home-main button {
+  color: black;
+}
+.home-container .home-image {
+  text-align: center;
+}
+.home-container .home-image img {
+  width: 80%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px lightblue;
+}
+
+/* Home component -end */
+.about-container {
+  height: 100vh;
+  background-color: red;
+}
+
+.service-container {
+  height: 100vh;
+  background-color: white;
+}
+
+.contact-container {
+  height: auto;
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

@@ -5,3 +5,9 @@
     align-items: $vertical;
     flex-direction: $direction;
 }
+
+@mixin background($background, $color, $padding) {
+    padding:$padding;
+    background: $background;
+    color: $color;
+}

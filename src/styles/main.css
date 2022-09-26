@@ -6,10 +6,6 @@
   font-family: Verdana;
 }
 
-.App {
-  background-color: #1F2235;
-}
-
 /* Navbar component -start */
 .navbar-container {
   margin: 0 auto 1rem auto;
@@ -28,7 +24,7 @@
 }
 .navbar-container .navbar-logo {
   font-size: 2rem;
-  color: green;
+  color: red;
   font-style: italic;
   font-weight: 100;
   letter-spacing: 5px;
@@ -40,7 +36,7 @@
 }
 .navbar-container .navbar-logo span {
   font-weight: bold;
-  color: red;
+  color: white;
 }
 .navbar-container .toggle-icon {
   margin-left: auto;
@@ -156,6 +152,10 @@
 }
 
 /* Home component -end */
+.App {
+  background-color: #1F2235;
+}
+
 .about-container {
   height: 100vh;
   background-color: red;

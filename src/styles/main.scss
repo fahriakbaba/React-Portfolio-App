@@ -1,152 +1,15 @@
 @import "./partials/reset";
 @import "./partials/variables";
 @import "./partials/mixins";
+@import "./partials/navbar";
+@import "./partials/home";
 
 .App {
   background-color: $backgroundColor;
 }
 
-/* Navbar component -start */
-  .navbar-container {
-    margin: 0 auto 1rem auto;
-    @include flexContainer(space-between, center, row);
-    @include background($backgroundColor, $textWhite,  1.5% 13%);
-    width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: sticky;
-    top:0;
-    .navbar-logo {
-      font-size: 2rem;
-      color: $textGreen;
-      font-style: italic;
-      font-weight: 100;
-      letter-spacing: 5px;
-      text-transform: lowercase;
-      @include flexContainer(flex-start, center, row);
-
-      span {
-        font-weight: bold;
-        color: red;
-      }
-    }
-    .toggle-icon {
-      margin-left: auto;
-      display: none;
-      cursor: pointer;
-      padding: 1% 
-    }
-      ul {
-        @include flexContainer(space-between, center, row);
-        li {
-          padding: 6px 1.2rem;
-          cursor: pointer;
-          transition: all 0.7s;
-          &:hover {
-            transform: scale(1.2);
-            a {
-              color: red;
-            }
-          }
-
-          a {
-            color: $textWhite;
-            text-decoration: none;
-            text-transform: capitalize;
-            letter-spacing: 1.6px;
-            font-style: italic;
-            transition: all 0.7s;
-          }
-      }
-    }
-  }
-
-  @media (min-width: $layout-breakpoint-small) and (max-width: $layout-breakpoint-large) {
-    .navbar-container {
-      .show {
-        opacity: 1;
-        visibility: visible;
-        height: auto;
-      }
-      .hidden {
-        opacity: 0;
-        height: 0;
-      }
-      display: block;
-      .navbar-logo {
-        display: inline-block;
-      }
-      .toggle-icon {
-        display: inline-block;
-        margin-left: auto;
-        position: absolute;
-        right: 3%;
-      }
-
-        ul {
-          visibility: hidden;
-          opacity: 0;
-          display: block;
-          width: 100%;
-          text-align: left;
-
-          li {
-            padding: 3% 0%;
-            transition: all .7s;
-            &:hover {
-              transform: translateX(2rem);
-            }
-          }
-        }
-    }
-  }
-  /* Navbar component -end */
 
   
-  /* Home component -start */
-  .home-container {
-    @include flexContainer(center, center, column);
-    height: 100vh;
-    @include background($bg-white, $textWhite,0 13% );
-    margin-top: -5%;
-    display: grid;
-    grid-template-columns: 4fr 8fr;
-    font-style: italic;
-
-    .home-main {
-      text-align: left;
-
-      h1{
-        font-size: 2rem;
-        margin: 12px auto;
-        line-height: 5rem;
-        color: $textBlack;
-      }
-
-      p{
-        line-height: 2rem;
-        color: gray;
-        font-size: 1rem;
-        width: 100%;
-        margin: 0 auto;
-      }
-      
-      button {
-        color: $textBlack;
-      }
-    }
-
-   
-
-    .home-image {
-      text-align: center;
-      img {
-        width: 80%;
-        border-radius: 5px;
-        box-shadow: 1px 1px 5px lightblue;
-      }
-    }
-  }
-  /* Home component -end */
 
 
   .about-container {

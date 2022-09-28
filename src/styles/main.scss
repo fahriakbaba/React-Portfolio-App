@@ -3,6 +3,7 @@
 @import "./partials/mixins";
 @import "./partials/navbar";
 @import "./partials/home";
+@import "./partials/contact";
 
 .App {
   background-color: $backgroundColor;
@@ -14,7 +15,8 @@
 
   .about-container {
     height: 100vh;
-    background-color: red;
+    background-color: yellowgreen;
+     
   }
 
   .service-container {
@@ -23,7 +25,4 @@
   }
 
 
-  .contact-container {
-    height: auto;
-    background-color: white;
-  }
+  

@@ -29,7 +29,7 @@
     }
 
     button {
-      color: $textBlack;
+      @extend %btn;
     }
   }
 

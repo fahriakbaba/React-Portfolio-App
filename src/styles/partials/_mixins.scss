@@ -1,3 +1,4 @@
+@import "./variables";
 
 @mixin flexContainer($horizantal, $vertical, $direction) {
     display: flex;
@@ -10,4 +11,24 @@
     padding:$padding;
     background: $background;
     color: $color;
+}
+
+%btn {
+    background-color: $backgroundColor;
+    font-style: italic;
+    font-weight: 500;
+    padding: 8px 12px;
+    color: $textWhite;
+    font-size: 1.2rem;
+    outline: none;
+    letter-spacing: 1.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all .5s;
+
+    &:hover {
+        color: $textBlack;
+        background-color: $bg-white;
+    }
 }

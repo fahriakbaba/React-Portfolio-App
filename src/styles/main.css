@@ -6,6 +6,25 @@
   font-family: Verdana;
 }
 
+.home-container .home-main button {
+  background-color: rgb(31, 34, 53);
+  font-style: italic;
+  font-weight: 500;
+  padding: 8px 12px;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+.home-container .home-main button:hover {
+  color: black;
+  background-color: white;
+}
+
 /* Navbar component -start */
 .navbar-container {
   margin: 0 auto 1rem auto;
@@ -139,9 +158,6 @@
   width: 100%;
   margin: 0 auto;
 }
-.home-container .home-main button {
-  color: black;
-}
 .home-container .home-image {
   text-align: center;
 }
@@ -160,6 +176,7 @@ footer {
   background-color: rgb(31, 34, 53);
   color: white;
   padding: 2% 15%;
+  font-style: italic;
 }
 footer h3 {
   margin: 6px auto;

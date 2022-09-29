@@ -3,18 +3,18 @@
 /* Home component -start */
 .home-container {
   @include flexContainer(center, center, column);
-  height: 100vh;
-  @include background($bg-white, $textWhite, 0 13%);
+  
+  @include background($bg-white, $textWhite, 7% 13% 5% 13%);
   margin-top: -5%;
   display: grid;
-  grid-template-columns: 4fr 8fr;
+  grid-template-columns: 6fr 6fr;
   font-style: italic;
 
   .home-main {
     text-align: left;
 
     h1 {
-      font-size: 2rem;
+      font-size: 2.5rem;
       margin: 12px auto;
       line-height: 5rem;
       color: $textBlack;
@@ -36,8 +36,9 @@
   .home-image {
     text-align: center;
     img {
-      width: 80%;
-      border-radius: 5px;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
       box-shadow: 1px 1px 5px lightblue;
     }
   }

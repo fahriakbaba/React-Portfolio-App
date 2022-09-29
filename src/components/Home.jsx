@@ -12,7 +12,7 @@ function Home() {
           building web applications. I’m detail-oriented and passionate about
           problem-solving.
         </p>
-        <button type="button">Get in touch</button>
+        <a href="mailto: fahriakbaba@gmail.com"> <button type="button">Get in touch</button> </a>
       </div>
       <div className="home-image">
         <img src={webImage} alt="web" />

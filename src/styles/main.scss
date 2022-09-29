@@ -4,6 +4,8 @@
 @import "./partials/navbar";
 @import "./partials/home";
 @import "./partials/contact";
+@import "./partials/service";
+
 
 .App {
   background-color: $backgroundColor;
@@ -18,11 +20,5 @@
     background-color: yellowgreen;
      
   }
-
-  .service-container {
-    height: 100vh;
-    background-color: white;
-  }
-
 
   

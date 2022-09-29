@@ -8,6 +8,17 @@ function Navbar() {
     setIsShown((prevState) => !prevState);
   };
 
+  /* 
+  -- when responsive navbar li elemant is clicked. Using Vanilla JS --
+    document.querySelectorAll("li").forEach(item => item.addEventListener("click", () => {
+    setIsShown(false);
+  }));
+  */
+
+  const handleClick = () => {
+    setIsShown(false);
+  };
+
   return (
     <header className="navbar-container">
       <div className="navbar-logo">
@@ -19,16 +30,29 @@ function Navbar() {
       </div>
       <ul className={`${isShown ? "show" : "hidden"}`}>
         <li>
-          <a href="#home">home</a>
+          <a href="#home" onClick={handleClick}>
+            home
+          </a>
         </li>
         <li>
-          <a href="#service">service</a>
+          <a href="#service" onClick={handleClick}>
+            skills
+          </a>
         </li>
         <li>
-          <a href="#about">about</a>
+          <a href="#about" onClick={handleClick}>
+            projects
+          </a>
         </li>
         <li>
-          <a href="#contact">contact</a>
+          <a href="#about" onClick={handleClick}>
+            about
+          </a>
+        </li>
+        <li>
+          <a href="#contact" onClick={handleClick}>
+            contact
+          </a>
         </li>
       </ul>
     </header>

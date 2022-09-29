@@ -1,0 +1,34 @@
+@import "./variables";
+
+.service-container {
+    padding:  5% 13%;
+    background-color: $bg-white;
+    font-style: italic;
+
+    .service-title {
+        margin-top: 4%;
+        font-size: 2rem;
+        @include flexContainer(flex-start, center, 0);
+
+        .service-icon {
+            color: rgb(172, 59, 59);
+            margin-left: 12px;
+        }
+    }
+
+    div {
+        padding: 1rem 0;
+
+        h3 {
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            opacity: .7;
+            line-height: 4rem;
+        }
+
+        p {
+            margin: .1rem 0;
+            color: gray;
+        }
+    }
+}

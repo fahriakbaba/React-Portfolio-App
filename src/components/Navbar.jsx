@@ -4,6 +4,7 @@ import React from "react";
 
 function Navbar() {
   const [isShown, setIsShown] = React.useState(false);
+
   const toggleIcon = () => {
     setIsShown((prevState) => !prevState);
   };
@@ -19,6 +20,14 @@ function Navbar() {
     setIsShown(false);
   };
 
+  const links = [
+    { linkName: "home", href: "#home" },
+    { linkName: "skills", href: "#service" },
+    { linkName: "projects", href: "#projects" },
+    { linkName: "about", href: "#about" },
+    { linkName: "contact", href: "#contact" },
+  ];
+
   return (
     <header className="navbar-container">
       <div className="navbar-logo">
@@ -29,31 +38,13 @@ function Navbar() {
         <BsToggles onClick={toggleIcon} />
       </div>
       <ul className={`${isShown ? "show" : "hidden"}`}>
-        <li>
-          <a href="#home" onClick={handleClick}>
-            home
-          </a>
-        </li>
-        <li>
-          <a href="#service" onClick={handleClick}>
-            skills
-          </a>
-        </li>
-        <li>
-          <a href="#about" onClick={handleClick}>
-            projects
-          </a>
-        </li>
-        <li>
-          <a href="#about" onClick={handleClick}>
-            about
-          </a>
-        </li>
-        <li>
-          <a href="#contact" onClick={handleClick}>
-            contact
-          </a>
-        </li>
+        {links.map((link, i) => (
+          <li key={i}>
+            <a href={`${link.href}`} onClick={handleClick}>
+              {link.linkName}
+            </a>
+          </li>
+        ))}
       </ul>
     </header>
   );

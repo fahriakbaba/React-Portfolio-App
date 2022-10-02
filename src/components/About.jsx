@@ -27,7 +27,7 @@ function About() {
       <p>
         <span style={{ fontWeight: 600 }}> My education: </span>
         <ul>
-          <li>Konak Anatolian High School - 2008</li>
+          <li>Konak Anatolian High School (2008)</li>
           <li>
             Trakya University - Physiotherapy and Rehabilitation (2009-2013)
           </li>

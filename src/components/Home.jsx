@@ -1,5 +1,5 @@
 import React from "react";
-import webImage from "../web.jpg";
+
 
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
         <a href="mailto: fahriakbaba@gmail.com"> <button type="button">Get in touch</button> </a>
       </div>
       <div className="home-image">
-        <img src={webImage} alt="web" />
+        <img src="https://avatars.githubusercontent.com/u/96592272?v=4" alt="web" />
       </div>
     </section>
   );

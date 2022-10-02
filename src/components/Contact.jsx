@@ -11,9 +11,21 @@ function Contact() {
     <footer id="contact" className="contact-container">
       <h3>Get in touch</h3>
       <div className="social-icon">
-        <AiFillInstagram className="icon" />
+        <a
+          href="https://www.instagram.com/fahriakbaba/"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <AiFillInstagram className="icon" />
+        </a>
         <SiTwitter className="icon" />
-        <ImLinkedin className="icon" />
+        <a
+          href="https://tr.linkedin.com/in/fahri-akbaba-949b65b9"
+          target={"_blank"}
+          rel="noreferrer"
+        >
+          <ImLinkedin className="icon" />
+        </a>
         <BsFacebook className="icon" />
         <MdEmail className="icon" />
       </div>

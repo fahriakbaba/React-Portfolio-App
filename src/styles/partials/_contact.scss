@@ -1,39 +1,40 @@
 @import "./variables";
 
-
 footer {
-    @include flexContainer(center, center, column);
-    background-color: $backgroundColor;
-    color: $textWhite;
-    padding: 2% 15%;
-    font-style: italic;
+  @include flexContainer(center, center, column);
+  background-color: $backgroundColor;
+  color: $textWhite;
+  padding: 2% 15%;
+  font-style: italic;
 
-    h3 {
-        margin: 6px auto;
-        font-size: 2.3rem;
-        font-weight: 500;
-        letter-spacing: 2px;
+  h3 {
+    margin: 6px auto;
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  a {
+    color: white;
+  }
+
+  .social-icon {
+    margin: 6px auto;
+    font-size: 2.2rem;
+    cursor: pointer;
+
+    .icon {
+      margin: 0 16px;
+      transition: all 0.7s;
+
+      &:hover {
+        color: gray;
+      }
     }
-    
-    .social-icon {
-        margin: 6px auto;
-        font-size: 2.2rem;
-        cursor: pointer;
+  }
 
-        .icon {
-            margin: 0 16px;
-            transition: all .7s;
-
-            &:hover {
-                color: gray;
-            }
-            
-        }
-    }
-
-    p {
-        font-size: 12px;
-        opacity: .5;
-        margin: 6px auto;
-    }
+  p {
+    font-size: 12px;
+    opacity: 0.5;
+    margin: 6px auto;
+  }
 }

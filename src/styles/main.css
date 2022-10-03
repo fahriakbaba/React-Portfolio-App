@@ -168,7 +168,7 @@
   transition: box-shadow 0.7s;
 }
 .home-container .home-image img:hover {
-  box-shadow: 6px 6px 5px gray;
+  box-shadow: 3px 3px 5px rgb(54, 50, 50);
 }
 
 /* Home component -end */
@@ -240,19 +240,89 @@ footer p {
   color: gray;
 }
 
+.home-container .home-main button {
+  background-color: rgb(31, 34, 53);
+  font-style: italic;
+  font-weight: 500;
+  padding: 8px 12px;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.5s;
+}
+.home-container .home-main button:hover {
+  color: black;
+  background-color: white;
+}
+
+.projects-container {
+  padding: 5% 13%;
+  background: white;
+  color: black;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.projects-container .project-info {
+  padding: 24px;
+  font-style: italic;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px gray;
+}
+.projects-container .project-info:hover {
+  box-shadow: 5px 5px 12px gray;
+}
+.projects-container .project-info img {
+  width: 400px;
+}
+.projects-container .project-info h4 {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+.projects-container .project-info .project-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.projects-container .project-info .project-footer ul li {
+  font-size: 0.7rem;
+  padding: 3px 0;
+}
+.projects-container .project-info .project-footer .project-icon {
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+.projects-container .project-info .project-footer .project-icon:hover {
+  color: gray;
+  transform: scale(1.1);
+}
+
 .about-container {
   padding: 5% 20% 5% 13%;
   background: white;
   color: black;
   font-style: italic;
+  color: gray;
 }
 .about-container h2 {
   line-height: 4rem;
+  color: black;
+  letter-spacing: 1px;
 }
-.about-container p {
+.about-container article {
   line-height: 2rem;
   text-align: justify;
   margin-bottom: 1.5rem;
+}
+.about-container article span {
+  color: black;
 }
 
 .App {

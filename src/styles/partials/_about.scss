@@ -3,14 +3,20 @@
 .about-container {
     @include background($bg-white, $textBlack, 5% 20% 5% 13%);
     font-style: italic;
+    color: gray;
 
     h2 {
         line-height: 4rem;
+        color: $textBlack;
+        letter-spacing: 1px;
     }
 
-    p {
+    article {
         line-height: 2rem;
         text-align: justify;
         margin-bottom: 1.5rem;
+        span {
+            color: $textBlack;
+        }
     }
 }

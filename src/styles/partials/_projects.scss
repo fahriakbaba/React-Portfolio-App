@@ -1,0 +1,45 @@
+@import "./variables";
+@import "./mixins";
+
+.projects-container {
+  @include background($bg-white, $textBlack, 5% 13%);
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+  .project-info {
+    padding: 24px;
+    font-style: italic;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+    &:hover {
+        box-shadow: 5px 5px 12px gray;
+    }
+    img {
+      width: 400px;
+    }
+    h4 {
+      font-size: 1rem;
+      margin: 6px 0;
+    }
+    .project-footer {
+      @include flexContainer(space-between, center, row);
+      ul {
+        li {
+          font-size: 0.7rem;
+          padding: 3px 0;
+        }
+      }
+      .project-icon {
+        font-size: 2rem;
+        color: $textBlack;
+        cursor: pointer;
+        transition: all .7s;
+        &:hover {
+            color: gray;
+            transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

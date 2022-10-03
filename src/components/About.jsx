@@ -5,38 +5,38 @@ function About() {
   return (
     <section id="about" className="about-container">
       <h2>About Fahri AKBABA</h2>
-      <p>
+      <article>
         I am a Front-end Developer. I create successful websites that are fast,
         easy to use, and built with best practices. My main experience is in
         front-end development but I also have a passion for design.
-      </p>
-      <p>
+      </article>
+      <article>
         My clients have found that hiring me has saved them time and money, made
         it easier to grow their website alongside their business, and made for a
         product that is consistently of high quality.
-      </p>
-      <p>
+      </article>
+      <article>
         I use HTML, CSS,,Saas, Bootstrap, JavaScript and React to produce
         responsive websites and web apps that provide users the best and most
         appropriate experience suited to their device and browser.
-      </p>
-      <p>
+      </article>
+      <article>
         I write standards based code that is semantic, accessible, search-engine
         friendly, easy to maintain, cross browser compatible, and performant.
-      </p>
-      <p>
+      </article>
+      <article>
         <span style={{ fontWeight: 600 }}> My education: </span>
         <ul>
-          <li>Konak Anatolian High School (2008)</li>
+          <li>Konak Anatolian High School 88.40/100 (2008)</li>
           <li>
-            Trakya University - Physiotherapy and Rehabilitation (2009-2013)
+            Trakya University - Physiotherapy and Rehabilitation 3.22/4.00 (2009-2013)
           </li>
           <li>
-            Dokuz Eylül University - Geriatric Rehabilitation M.Sc. (2014-2016)
+            Dokuz Eylül University - Geriatric Rehabilitation M.Sc. 3.92/4.00 (2014-2016)
           </li>
           <li>Anadolu University - Computer Programming (2021 - )</li>
         </ul>
-      </p>
+      </article>
     </section>
   );
 }

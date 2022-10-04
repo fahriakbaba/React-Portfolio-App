@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/main.css";
 import { AiFillInstagram } from "react-icons/ai";
-import { SiTwitter } from "react-icons/si";
+// import { SiTwitter } from "react-icons/si";
 import { ImLinkedin } from "react-icons/im";
-import { BsFacebook } from "react-icons/bs";
+// import { BsFacebook } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
@@ -18,7 +18,7 @@ function Contact() {
         >
           <AiFillInstagram className="icon" />
         </a>
-        <SiTwitter className="icon" />
+        {/* <SiTwitter className="icon" /> */}
         <a
           href="https://tr.linkedin.com/in/fahri-akbaba-949b65b9"
           target={"_blank"}
@@ -26,8 +26,10 @@ function Contact() {
         >
           <ImLinkedin className="icon" />
         </a>
-        <BsFacebook className="icon" />
-        <MdEmail className="icon" />
+        {/* <BsFacebook className="icon" /> */}
+        <a href="mailto: fahriakbaba@gmail.com">
+          <MdEmail className="icon" />
+        </a>
       </div>
       <p>Fahri Akbaba &copy; 2022 || All Rights Reserved</p>
     </footer>

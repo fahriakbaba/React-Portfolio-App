@@ -1,10 +1,11 @@
 import React from "react";
 import "../styles/main.css";
+import { FcAbout } from 'react-icons/fc';
 
 function About() {
   return (
     <section id="about" className="about-container">
-      <h2>About Fahri AKBABA</h2>
+      <h2>About Fahri AKBABA <FcAbout className="about-icon" /> </h2>
       <article>
         I am a Front-end Developer. I create successful websites that are fast,
         easy to use, and built with best practices. My main experience is in
@@ -35,6 +36,12 @@ function About() {
             Dokuz Eylül University - Geriatric Rehabilitation M.Sc. 3.92/4.00 (2014-2016)
           </li>
           <li>Anadolu University - Computer Programming (2021 - )</li>
+        </ul>
+      </article>
+      <article>
+        <span style={{ fontWeight: 600 }}> My courses: </span>
+        <ul>
+          <li>Udemy</li>
         </ul>
       </article>
     </section>

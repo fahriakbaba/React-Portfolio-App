@@ -1,22 +1,28 @@
 @import "./variables";
+@import "./mixins";
 
 .about-container {
-    @include background($bg-white, $textBlack, 5% 20% 5% 13%);
-    font-style: italic;
-    color: gray;
+  @include background($bg-white, $textBlack, 5% 20% 5% 13%);
+  font-style: italic;
+  color: gray;
 
-    h2 {
-        line-height: 4rem;
-        color: $textBlack;
-        letter-spacing: 1px;
+  h2 {
+    line-height: 6rem;
+    color: $textBlack;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    @include flexContainer(flex-start, center, row);
+    .about-icon {
+      margin-left: 12px;
     }
+  }
 
-    article {
-        line-height: 2rem;
-        text-align: justify;
-        margin-bottom: 1.5rem;
-        span {
-            color: $textBlack;
-        }
+  article {
+    line-height: 2rem;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    span {
+      color: $textBlack;
     }
+  }
 }

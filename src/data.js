@@ -135,7 +135,46 @@ const projectsData = [
         lists: ["React Hooks"],
         href: "https://github.com/fahriakbaba/birthday-react-app"
     },
-
+    {
+        id: 18,
+        src: "https://i.stack.imgur.com/nfItp.jpg",
+        alt: "todolist",
+        title:"To do list using Vanilla JS",
+        lists: ["forEach()", "JavaScript DOM", "localStorage"],
+        href: "https://github.com/fahriakbaba/to-do-list-javascript"
+    },
+    {
+        id: 19,
+        src: "https://miro.medium.com/max/720/1*pNbxjDcOZWnzLEQL_xs-rg.jpeg",
+        alt: "hamburger",
+        title:"Hamburger Menu using Vanilla JS",
+        lists: ["using classList and toggle in vanilla javascript"],
+        href: "https://github.com/fahriakbaba/hamburger-menu-js"
+    },
+    {
+        id: 20,
+        src: "https://miro.medium.com/max/640/1*uLmotINSGHy443MHupn9uA.png",
+        alt: "counter",
+        title:"Counter Vanilla JS",
+        lists: [".addEventListener()", "JavaScript DOM"],
+        href: "https://github.com/fahriakbaba/counter"
+    },
+    {
+        id: 21,
+        src: "https://www.freecodecamp.org/news/content/images/size/w1000/2021/03/menu.png",
+        alt: "menu",
+        title:"Asian Menu using Vanilla JS",
+        lists: [".addEventListener()", "JavaScript DOM"],
+        href: "https://github.com/fahriakbaba/asiankitchen"
+    },
+    {
+        id: 22,
+        src: "https://1.bp.blogspot.com/-f1wbwzk-xh4/Wxzwm7j6xdI/AAAAAAAABjk/LIApwYBf3AQ-S6bTQfwHLHykiWHR2ePiQCLcBGAs/s1600/11.PNG",
+        alt: "form-validation",
+        title:"Form Validation using Vanilla JS",
+        lists: [".addEventListener()", "JavaScript DOM"],
+        href: "https://github.com/fahriakbaba/Form-Validation"
+    },
 
 ];
 

@@ -1,5 +1,5 @@
 import "../styles/main.css";
-import { BsToggles } from "react-icons/bs";
+import { MdLegendToggle } from "react-icons/md";
 import React from "react";
 
 function Navbar() {
@@ -35,7 +35,7 @@ function Navbar() {
         akbaba
       </div>
       <div className="toggle-icon">
-        <BsToggles onClick={toggleIcon} />
+        <MdLegendToggle onClick={toggleIcon} />
       </div>
       <ul className={`${isShown ? "show" : "hidden"}`}>
         {links.map((link, i) => (

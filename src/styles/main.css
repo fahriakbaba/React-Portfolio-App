@@ -124,7 +124,7 @@
     transition: all 0.7s;
   }
   .navbar-container ul li:hover {
-    transform: translateX(1rem);
+    transform: translateX(0.5rem);
   }
 }
 /* Navbar component -end */

@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+![Image](./public/images/portfolio1.png)
+![Image](./public/images/portfolio2.png)
+![Image](./public/images/portfolio3.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

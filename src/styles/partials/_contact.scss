@@ -2,7 +2,7 @@
 
 footer {
   @include flexContainer(center, center, column);
-  background-color: $backgroundColor;
+  background-color: $bg-dark;
   color: $textWhite;
   padding: 2% 15%;
   font-style: italic;

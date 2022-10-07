@@ -4,7 +4,7 @@
 .navbar-container {
   margin: 0 auto 1rem auto;
   @include flexContainer(space-between, center, row);
-  @include background($backgroundColor, $textWhite, 1.5% 13%);
+  @include background($bg-dark, $textWhite, 1.5% 13%);
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   position: sticky;

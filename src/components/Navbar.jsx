@@ -1,5 +1,5 @@
 import "../styles/main.css";
-import { MdLegendToggle } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi";
 import React from "react";
 
 function Navbar() {
@@ -35,7 +35,7 @@ function Navbar() {
         akbaba
       </div>
       <div className="toggle-icon">
-        <MdLegendToggle onClick={toggleIcon} />
+        <GiHamburgerMenu onClick={toggleIcon} />
       </div>
       <ul className={`${isShown ? "show" : "hidden"}`}>
         {links.map((link, i) => (

@@ -62,7 +62,7 @@
   margin-left: auto;
   display: none;
   cursor: pointer;
-  padding: 1%;
+  padding: 2%;
 }
 .navbar-container ul {
   display: flex;
@@ -124,7 +124,7 @@
     transition: all 0.7s;
   }
   .navbar-container ul li:hover {
-    transform: translateX(2rem);
+    transform: translateX(1rem);
   }
 }
 /* Navbar component -end */
@@ -172,7 +172,7 @@
 }
 
 /* Home component -end */
-@media (min-width: 600px) and (max-width: 1100px) {
+@media (min-width: 0) and (max-width: 992px) {
   .home-container {
     display: flex;
     flex-direction: column;
@@ -251,6 +251,11 @@ footer p {
   color: gray;
 }
 
+@media (min-width: 0) and (max-width: 992px) {
+  .service-container {
+    padding-top: 5rem;
+  }
+}
 .home-container .home-main button {
   background-color: rgb(31, 34, 53);
   font-style: italic;
@@ -273,7 +278,7 @@ footer p {
 .projects-header {
   background-color: white;
   color: black;
-  padding: 5% 13% 0 13%;
+  padding: 7% 13% 0 13%;
   font-size: 2rem;
   letter-spacing: 2px;
   font-style: italic;
@@ -338,6 +343,14 @@ footer p {
   transform: scale(1.1);
 }
 
+@media (min-width: 0) and (max-width: 992px) {
+  .projects-header {
+    padding-top: 5rem;
+  }
+  .project-container {
+    padding-top: 2rem;
+  }
+}
 .home-container .home-main button {
   background-color: rgb(31, 34, 53);
   font-style: italic;
@@ -386,6 +399,15 @@ footer p {
   color: black;
 }
 
+@media (min-width: 0) and (max-width: 992px) {
+  .about-container {
+    padding-top: 5rem;
+  }
+  .about-container h2 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+  }
+}
 .App {
   background-color: rgb(31, 34, 53);
 }/*# sourceMappingURL=main.css.map */

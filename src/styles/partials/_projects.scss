@@ -6,7 +6,7 @@
 .projects-header {
   background-color: $bg-white;
   color: $textBlack;
-  padding: 5% 13% 0 13%;
+  padding: 7% 13% 0 13%;
   font-size: 2rem;
   letter-spacing: 2px;
   font-style: italic;
@@ -64,4 +64,14 @@
       }
     }
   }
+}
+
+
+@media (min-width: 0) and (max-width: 992px) {
+   .projects-header {
+    padding-top: 5rem;
+   }
+   .project-container {
+    padding-top: 2rem;
+   }
 }

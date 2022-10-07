@@ -32,3 +32,9 @@
         }
     }
 }
+
+@media (min-width: 0) and (max-width: 992px) {
+    .service-container {
+     padding-top: 5rem;
+    }
+ }

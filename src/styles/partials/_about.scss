@@ -26,3 +26,14 @@
     }
   }
 }
+
+
+@media (min-width: 0) and (max-width: 992px) {
+  .about-container {
+   padding-top: 5rem;
+   h2 {
+    line-height: 3rem;
+    margin-bottom: 2rem;
+   }
+  }
+}

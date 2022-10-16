@@ -5,6 +5,9 @@
 ![Image](./public/images/portfolio3.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### What did I use when I was making this project?
+1. Sass
+2. React Navbar
 
 ## Available Scripts
 

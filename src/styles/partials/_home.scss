@@ -15,6 +15,9 @@
 
     h1 {
       font-size: 2.5rem;
+      @include mobile {
+        font-size: 1.75rem;
+      }
       margin: 12px auto;
       line-height: 5rem;
       color: $textBlack;
@@ -24,6 +27,9 @@
       line-height: 2rem;
       color: gray;
       font-size: 1rem;
+      @include mobile {
+        font-size: .75rem;
+      }
       width: 100%;
       margin: 0 auto;
     }
@@ -34,12 +40,16 @@
   }
 
   .home-image {
-    text-align: center;
+    text-align: right;
     img {
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 350px;
       border-radius: 50%;
       transition: box-shadow .7s;
+      @include mobile{
+        width: 200px;
+        height: 200px;
+      }
       
       &:hover {
         box-shadow: 3px 3px 5px rgb(54, 50, 50);

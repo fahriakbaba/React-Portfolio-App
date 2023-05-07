@@ -20,6 +20,13 @@
   margin-top: 1rem;
   transition: all 0.5s;
 }
+@media (max-width: 480px) {
+  .home-container .home-main button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 4px 6px;
+  }
+}
 .home-container .home-main button:hover {
   color: black;
   background-color: white;
@@ -37,7 +44,6 @@
   color: white;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: -webkit-sticky;
   position: sticky;
   z-index: 1;
   top: 0;
@@ -53,6 +59,11 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+}
+@media (max-width: 480px) {
+  .navbar-container .navbar-logo {
+    font-size: 1.5rem;
+  }
 }
 .navbar-container .navbar-logo span {
   font-weight: bold;
@@ -88,6 +99,11 @@
   letter-spacing: 1.6px;
   font-style: italic;
   transition: all 0.7s;
+}
+@media (max-width: 480px) {
+  .navbar-container ul li a {
+    font-size: 0.75rem;
+  }
 }
 
 @media (min-width: 0) and (max-width: 960px) {
@@ -151,6 +167,11 @@
   line-height: 5rem;
   color: black;
 }
+@media (max-width: 480px) {
+  .home-container .home-main h1 {
+    font-size: 1.75rem;
+  }
+}
 .home-container .home-main p {
   line-height: 2rem;
   color: gray;
@@ -158,14 +179,25 @@
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 480px) {
+  .home-container .home-main p {
+    font-size: 0.75rem;
+  }
+}
 .home-container .home-image {
-  text-align: center;
+  text-align: right;
 }
 .home-container .home-image img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   transition: box-shadow 0.7s;
+}
+@media (max-width: 480px) {
+  .home-container .home-image img {
+    width: 200px;
+    height: 200px;
+  }
 }
 .home-container .home-image img:hover {
   box-shadow: 3px 3px 5px rgb(54, 50, 50);
@@ -270,6 +302,13 @@ footer p {
   margin-top: 1rem;
   transition: all 0.5s;
 }
+@media (max-width: 480px) {
+  .home-container .home-main button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 4px 6px;
+  }
+}
 .home-container .home-main button:hover {
   color: black;
   background-color: white;
@@ -365,6 +404,13 @@ footer p {
   margin-top: 1rem;
   transition: all 0.5s;
 }
+@media (max-width: 480px) {
+  .home-container .home-main button {
+    font-size: 1rem;
+    width: 100%;
+    padding: 4px 6px;
+  }
+}
 .home-container .home-main button:hover {
   color: black;
   background-color: white;
@@ -408,6 +454,10 @@ footer p {
     margin-bottom: 2rem;
   }
 }
+:root {
+  scroll-behavior: smooth;
+}
+
 .App {
   background-color: rgb(31, 34, 53);
 }/*# sourceMappingURL=main.css.map */

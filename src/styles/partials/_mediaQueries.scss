@@ -1,0 +1,6 @@
+// responsive for mobile
+@mixin mobile {
+    @media (max-width: 480px) {
+        @content;
+    }
+}

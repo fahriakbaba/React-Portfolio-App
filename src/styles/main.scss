@@ -8,6 +8,9 @@
 @import "./partials/projects";
 @import "./partials/about";
 
+:root {
+  scroll-behavior: smooth;
+}
 
 .App {
   background-color: $bg-dark;

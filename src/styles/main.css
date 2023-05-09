@@ -265,6 +265,11 @@ footer p {
   align-items: center;
   flex-direction: 0;
 }
+@media (max-width: 480px) {
+  .service-container .service-title {
+    font-size: 1.75rem;
+  }
+}
 .service-container .service-title .service-icon {
   color: rgb(172, 59, 59);
   margin-left: 12px;
@@ -278,9 +283,19 @@ footer p {
   opacity: 0.7;
   line-height: 4rem;
 }
+@media (max-width: 480px) {
+  .service-container div h3 {
+    font-size: 1.25rem;
+  }
+}
 .service-container div p {
   margin: 0.1rem 0;
   color: gray;
+}
+@media (max-width: 480px) {
+  .service-container div p {
+    font-size: 0.75rem;
+  }
 }
 
 @media (min-width: 0) and (max-width: 992px) {
@@ -325,6 +340,11 @@ footer p {
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
+}
+@media (max-width: 480px) {
+  .projects-header {
+    font-size: 1.75rem;
+  }
 }
 .projects-header .projects-icon {
   color: rgb(172, 59, 59);

@@ -7,7 +7,7 @@ function Service() {
       <h2 className="service-title">Skills <FaRocket className="service-icon" /></h2>
       <div>
         <h3>Frontend</h3>
-        <p>HTML, CSS, SAAS, JavaScript (+ES6), ReactJS, React Router, Redux Toolkit, Bootstrap</p>
+        <p>HTML, CSS, SAAS, JavaScript (+ES6), ReactJS, React Router, Redux, Redux Toolkit, Bootstrap, JSON Server</p>
       </div>
       <div>
         <h3>General Knowledge</h3>
@@ -15,7 +15,7 @@ function Service() {
       </div>
       <div>
         <h3>I'm currently learning...</h3>
-        <p>ReactJs in depth and NodeJS, ExpressJS</p>
+        <p>ReactJs in depth and Vue JS</p>
       </div>
     </section>
   );

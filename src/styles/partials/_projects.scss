@@ -8,6 +8,9 @@
   color: $textBlack;
   padding: 7% 13% 0 13%;
   font-size: 2rem;
+  @include mobile {
+    font-size: 1.75rem;
+  }
   letter-spacing: 2px;
   font-style: italic;
   @include flexContainer(flex-start, center, row);

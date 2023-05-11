@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./mixins";
+@import "./mediaQueries";
 
 .about-container {
   @include background($bg-white, $textBlack, 5% 20% 5% 13%);
@@ -10,6 +11,9 @@
     line-height: 6rem;
     color: $textBlack;
     font-size: 2rem;
+    @include mobile {
+      font-size: 1.75rem;
+    }
     letter-spacing: 1px;
     @include flexContainer(flex-start, center, row);
     .about-icon {
@@ -21,6 +25,9 @@
     line-height: 2rem;
     text-align: justify;
     margin-bottom: 1.5rem;
+    @include mobile {
+      font-size: .75rem;
+    }
     span {
       color: $textBlack;
     }

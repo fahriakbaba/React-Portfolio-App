@@ -282,12 +282,17 @@ footer p {
 }
 @media (max-width: 480px) {
   .service-container .service-title {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 .service-container .service-title .service-icon {
   color: rgb(172, 59, 59);
   margin-left: 12px;
+}
+@media (max-width: 480px) {
+  .service-container .service-title .service-icon {
+    font-size: 1.5rem;
+  }
 }
 .service-container div {
   padding: 1rem 0;
@@ -300,7 +305,7 @@ footer p {
 }
 @media (max-width: 480px) {
   .service-container div h3 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
   }
 }
 .service-container div p {
@@ -358,12 +363,17 @@ footer p {
 }
 @media (max-width: 480px) {
   .projects-header {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 .projects-header .projects-icon {
   color: rgb(172, 59, 59);
   margin-left: 12px;
+}
+@media (max-width: 480px) {
+  .projects-header .projects-icon {
+    font-size: 1.5rem;
+  }
 }
 
 .project-container {
@@ -383,6 +393,12 @@ footer p {
   box-shadow: 1px 1px 3px gray;
   transition: all 0.7s;
 }
+@media (max-width: 480px) {
+  .project-container .project-info {
+    width: 75%;
+    margin: auto;
+  }
+}
 .project-container .project-info:hover {
   box-shadow: 5px 5px 12px gray;
   transform: scale(1.03);
@@ -396,6 +412,11 @@ footer p {
   font-size: 1rem;
   margin: 6px 0;
 }
+@media (max-width: 480px) {
+  .project-container .project-info h4 {
+    font-size: 0.75rem;
+  }
+}
 .project-container .project-info .project-footer {
   display: flex;
   justify-content: space-between;
@@ -406,11 +427,21 @@ footer p {
   font-size: 0.7rem;
   padding: 3px 0;
 }
+@media (max-width: 480px) {
+  .project-container .project-info .project-footer ul li {
+    font-size: 0.5rem;
+  }
+}
 .project-container .project-info .project-footer .project-icon {
   font-size: 2rem;
   color: black;
   cursor: pointer;
   transition: all 0.7s;
+}
+@media (max-width: 480px) {
+  .project-container .project-info .project-footer .project-icon {
+    font-size: 1.5rem;
+  }
 }
 .project-container .project-info .project-footer .project-icon:hover {
   color: gray;
@@ -470,11 +501,16 @@ footer p {
 }
 @media (max-width: 480px) {
   .about-container h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 }
 .about-container h2 .about-icon {
   margin-left: 12px;
+}
+@media (max-width: 480px) {
+  .about-container h2 .about-icon {
+    font-size: 1.5rem;
+  }
 }
 .about-container article {
   line-height: 2rem;

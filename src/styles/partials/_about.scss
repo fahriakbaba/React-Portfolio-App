@@ -12,12 +12,15 @@
     color: $textBlack;
     font-size: 2rem;
     @include mobile {
-      font-size: 1.75rem;
+      font-size: 1.5rem;
     }
     letter-spacing: 1px;
     @include flexContainer(flex-start, center, row);
     .about-icon {
       margin-left: 12px;
+      @include mobile {
+        font-size: 1.5rem;
+      }
     }
   }
 

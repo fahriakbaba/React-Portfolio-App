@@ -1,5 +1,6 @@
 @import "./variables";
 @import "./mixins";
+@import "./mediaQueries";
 
  
 
@@ -9,7 +10,7 @@
   padding: 7% 13% 0 13%;
   font-size: 2rem;
   @include mobile {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
   letter-spacing: 2px;
   font-style: italic;
@@ -17,6 +18,9 @@
   .projects-icon {
     color: rgb(172, 59, 59);
     margin-left: 12px;
+    @include mobile {
+      font-size: 1.5rem;
+    }
   }
 }
 
@@ -29,6 +33,10 @@
   cursor: pointer;
 
   .project-info {
+    @include mobile {
+      width: 75%;
+      margin: auto;
+    }
     padding: 24px;
     font-style: italic;
     border-radius: 8px;
@@ -45,6 +53,9 @@
     }
     h4 {
       font-size: 1rem;
+      @include mobile {
+        font-size: .75rem;
+      }
       margin: 6px 0;
     }
     .project-footer {
@@ -52,11 +63,17 @@
       ul {
         li {
           font-size: 0.7rem;
+          @include mobile {
+            font-size: .5rem;
+          }
           padding: 3px 0;
         }
       }
       .project-icon {
         font-size: 2rem;
+        @include mobile {
+          font-size: 1.5rem;
+        }
         color: $textBlack;
         cursor: pointer;
         transition: all 0.7s;

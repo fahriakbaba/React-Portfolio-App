@@ -7,6 +7,7 @@ import { ImLinkedin } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 
 function Contact() {
+  const updatedHsitory = new Date().getFullYear();
   return (
     <footer id="contact" className="contact-container">
       <h3>Get in touch</h3>
@@ -31,7 +32,7 @@ function Contact() {
           <MdEmail className="icon" />
         </a>
       </div>
-      <p>Fahri Akbaba &copy; 2022 || All Rights Reserved</p>
+      <p>Fahri Akbaba &copy; {updatedHsitory} || All Rights Reserved</p>
     </footer>
   );
 }

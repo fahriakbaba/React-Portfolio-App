@@ -4,6 +4,8 @@
 ![Image](./public/images/portfolio2.png)
 ![Image](./public/images/portfolio3.png)
 
+You can access the project by clicking [this link](https://fahriakbaba-portfolio-app.netlify.app/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 #### What did I use when I was making this project?
 1. Sass
